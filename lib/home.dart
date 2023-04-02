@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
             const SizedBox(
               height: 100,
               child: Text(
-                "Aplicação que consome parcialmente uma Api sobre Rick And Morty.",
+                "Aplicação que consome parcialmente uma Api sobre Rick And Morty",
                 style: TextStyle(fontSize: 20),
               ),
             ),
@@ -171,6 +171,22 @@ class _HomeState extends State<Home> {
                             "https://rickandmortyapi.com/api/character/avatar/293.jpeg",
                             width: 200, // largura desejada da imagem
                             height: 200, // altura desejada da imagem
+                          )
+                        ],
+                      ),
+                      const SizedBox(
+                        height: 20,
+                      ),
+                      //Não consegui pegar a imagem diretamente pela API
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Text('Created:   ',
+                              style: TextStyle(fontSize: 20)),
+                          Text(
+                            value.data!.created,
+                            style: const TextStyle(
+                                fontSize: 20, fontWeight: FontWeight.bold),
                           )
                         ],
                       ),

@@ -5,7 +5,7 @@ class User {
   final String gender;
   final String created;
   final int id;
-  final String url;
+  //final String url;
 
   User({
     required this.gender,
@@ -14,7 +14,7 @@ class User {
     required this.created,
     required this.id,
     required this.name,
-    required this.url,
+    //required this.url,
   });
 
   factory User.fromJson(Map<String, dynamic> json) => User(
@@ -24,6 +24,6 @@ class User {
         created: json["created"],
         id: json["id"],
         species: json["species"],
-        url: json["url"],
+        //url: json["url"],
       );
 }
