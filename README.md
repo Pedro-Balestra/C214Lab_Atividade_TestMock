@@ -22,8 +22,8 @@ As seguintes bibliotecas foram usadas na construção do projeto:
 
 ## 🎨 Layout
 
-<p align ="center">
-    <img width="400" src="src/assests/Tela.png">
+<p align="center">
+  <img width="470" src="src/assets/Tela.png"
 </p>
 
 ---
@@ -83,6 +83,6 @@ $ flutter test
 
 ---
 ## 📝 License
-[![License](https://img.shields.io/apm/l/vim-mode?color=blue)](http://badges.mit-license.org)
+[![License](https://img.shields.io/github/license/pedro-balestra/C214Lab_Atividade_TestMock)](http://badges.mit-license.org)
 
 - **[MIT license](https://choosealicense.com/licenses/mit/)**
