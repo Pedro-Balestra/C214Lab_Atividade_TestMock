@@ -18,6 +18,8 @@ As seguintes bibliotecas foram usadas na construção do projeto:
 
 ### Utilitários
 - Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
+
+[![Flutter Badge](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://pub.dev/)
 ---
 
 ## 🎨 Layout
@@ -43,11 +45,10 @@ Recomendações:
 # Clone este repositório
 $ git clone https://github.com/Pedro-Balestra/C214Lab_Atividade_TestMock.git
 
-# Acesse a pasta do projeto
-
 # Instale as dependências
 $ flutter pub add --dev mockito
 $ flutter pub add --dev build_runner
+$ flutter pub add http
 
 ```
 ### ⚽ Rodando a aplicação
@@ -56,8 +57,6 @@ $ flutter pub add --dev build_runner
 
 # Execute a aplicação
 $ flutter run
-
-# Iniciará na porta:3000
 
 ```
 
@@ -78,9 +77,9 @@ $ flutter test
 <img style="border-radius: 20%;" src="https://avatars.githubusercontent.com/pedro-balestra" width="120px;" alt="120px"/><br>
 **Pedro Balestra**
 
-[![Linkedin Badge](https://img.shields.io/badge/-Pedro_Balestra-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/Pedro-balestra)](https://www.linkedin.com/in/pedro-balestra)
-[![Outlook Badge](https://img.shields.io/badge/email--000?style=social&logo=microsoft-outlook&logoColor=0078d4&link=mailto:pedro.balestra@outlook.com)](pedro.balestra@outlook.com)
 
+[![Linkedin Badge](https://img.shields.io/badge/LinkeDin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brendhon-moreira)
+[![Outlook Badge](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:pedro.balestra@outlook.com)
 ---
 ## 📝 License
 [![License](https://img.shields.io/github/license/pedro-balestra/C214Lab_Atividade_TestMock)](http://badges.mit-license.org)
