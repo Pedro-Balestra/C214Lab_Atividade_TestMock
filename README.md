@@ -1,3 +1,4 @@
+[![CI Teste Mock](https://github.com/Pedro-Balestra/C214Lab_Atividade_TestMock/actions/workflows/dart.yml/badge.svg)](https://github.com/Pedro-Balestra/C214Lab_Atividade_TestMock/actions/workflows/dart.yml)
 <h1 align="center">Teste Mock</h1>
 
 <h3 align="center">✅ Concluído ✅</h3>
