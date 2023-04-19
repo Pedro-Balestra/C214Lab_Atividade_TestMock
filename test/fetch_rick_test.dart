@@ -20,7 +20,7 @@ void main() {
                   Uri.parse("https://rickandmortyapi.com/api/character/293")))
               .thenAnswer(
             (_) async => http.Response(
-                '{"id": 293 ,'
+                '{"id": 292 ,'
                 '"name": "Rick Sanchez",'
                 '"status": "Dead",'
                 '"species": "Human",'
