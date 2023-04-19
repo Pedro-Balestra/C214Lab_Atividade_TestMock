@@ -20,7 +20,7 @@ void main() {
                   Uri.parse("https://rickandmortyapi.com/api/character/293")))
               .thenAnswer(
             (_) async => http.Response(
-                '{"id": 292 ,'
+                '{"id": 293 ,'
                 '"name": "Rick Sanchez",'
                 '"status": "Dead",'
                 '"species": "Human",'
@@ -39,7 +39,7 @@ void main() {
           final client = MockRick();
 
           when(client.get(
-                  Uri.parse("https://rickandmortyapi.com/api/character/293")))
+                  Uri.parse("https://rickandmortyapi.com/api/character/292")))
               .thenAnswer((_) async => http.Response("Not Found", 404));
 
           expect(fetchUser(client), throwsException);
